@@ -282,7 +282,8 @@ padding: 120px 0;
 .advantages-list{
     
     display: flex;
-      gap: 24px; 
+      gap: 72px; 
+      flex-wrap: wrap;
 
 }
 
@@ -304,6 +305,7 @@ width: calc((100% - 72px) / 4);
         border-radius: 4px;
         background: var(--cloud, #F4F4FD);
         margin-bottom: 8px;
+        display: none;
 
 }
 
