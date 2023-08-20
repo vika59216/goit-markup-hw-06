@@ -16,11 +16,12 @@ body {
 }
 
 .container{
-    width:1158px;
+    width:100%;
     padding-left: 15px;
-    padding-right: 15px;
+        padding-right: 15px;
     margin: 0 auto;
     padding: 0 15px;
+    max-width: 428px;
 
 }
 
@@ -262,7 +263,7 @@ p{
 
 
 .advantages{
-padding: 120px 0;
+padding: 96px 16px;
 
 
 }
@@ -282,8 +283,10 @@ padding: 120px 0;
 .advantages-list{
     
     display: flex;
-      gap: 72px; 
+      gap: 40px; 
+      min-width: 428px;
       flex-wrap: wrap;
+     
       
 
 }
@@ -318,6 +321,9 @@ position: relative;
         line-height: 1.2;
         letter-spacing: 0.4px;
         margin-bottom: 8px;
+        align-self: stretch;
+        text-align: center;
+        text-transform: capitalize;
         
 
 }
@@ -327,6 +333,8 @@ position: relative;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    align-self: stretch;
+   
      
     }
         .advantages-list{
@@ -403,11 +411,13 @@ position: relative;
    }
 
 
-   .team-name-item {background-color: #FFFFFF;
+   .team-name-item {
+    width: 100%;
+    background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
         background: var(--white, #FFF);
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    width: calc((100% - 72px) / 4);
+    /*width: calc((100% - 72px) / 4);*/
        
         }
 
@@ -1330,9 +1340,9 @@ position: relative;
             }
 
 
-           @media screen and (min-width:700px) {
+           @media screen and (min-width:768px) {
              .container {
-                max-width: 700px;
+                max-width: 734px;
                       }
                   }
 
