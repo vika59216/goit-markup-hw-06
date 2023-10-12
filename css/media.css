@@ -1,28 +1,34 @@
    @media screen and (min-width:428px) {
        .container {
-           max-width: 426px;
+           max-width: 428px;
        }
 
    }
 
    @media screen and (min-width:1158px) {
     .container {
-            width: calc((100% - 72px) / 2);
+          max-width: 1158px; 
         
        }
+           
 
    }
 
 
    @media screen and (min-width:768px) {
        .container {
-           max-width: 734px;
-           width:calc((100% - 24px) / 2);
+           max-width: 768px;
+          
        }
+           .advantages-subtitle{
+            text-align: left;
+            
+           }
 
            .advantages-list {
                padding: 110;
                gap: 72px 24px;
+            padding: 0;
     
            }
                         .advantages {
@@ -32,11 +38,7 @@
       .advantages-item-top {
         display: flex;
       }
-           .advantages-list {
-               padding: 0;
-               gap: 72px 72px;
-    
-           }
+           
                    .advantages {
                        padding-top: 96px;
                        padding-bottom: 96px;
@@ -48,38 +50,58 @@
                                           
    }
 
+   .team-icon-item{
+
+    width: cals((100% - 24px) / 2);
+
+   }
+   .team-name-list{
+    gap: 64px 24px;
+   }
+   .team-name-item {
+       width: calc((100% - 24px) / 2);
+
+   }
+
 
 
    .advantages-item {
+    width: calc((100% - 24px) / 2);
       
 
    }
-        }
+
+   .portfolio-carts-list{
+    
+    width: ((100% - 24px) / 2);
+   
+
+   
+
+   }
+   .portfolio-carts{
+    gap: 72px 24px;
+    
+  
+
+   }
+
+
+
+
+        
 
 
    
 
   
-/**
-   .@media screen and (min-width:1440px) {
-    .container{max-width:1166px;
-   }
-}
-**/
 
 
 
 
 
-.team{
 
-padding-top: 96px;
-    padding-bottom: 96px;
-    gap: 24px 64px;
-}
 
- .team-name-item{
-    width: calc((100% - 24px) / 2);
-
+ 
  }
    
