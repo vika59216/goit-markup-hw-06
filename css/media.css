@@ -65,7 +65,7 @@
 
    .portfolio-carts-list{
     
-    width: ((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
    
 
    
@@ -77,15 +77,34 @@
   
 
    }
-
+   .hero-title {
+    color: var(--WHITE, #FFF);
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-transform: none;
+      
+       
+           
+        }
 
  
- }
+
+ .hero {
+    padding:112px 0;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ \(1\)\ tablet.jpg);}
+        }
 
 
  @media screen and (min-width:1158px) {
      .container {
          max-width: 1158px;
+         padding-left: 15px; 
+         padding-right: 15px;
+         
 
      }
 
@@ -165,10 +184,40 @@ margin-bottom: 120px;
         border-radius: 4px;
         background: var(--cloud, #F4F4FD);
         margin-bottom: 8px;
+ 
  }
+
+
+ .hero-title {
+     color: var(--white, #FFF);
+     text-align: center;
+     font-size: 56px;
+     font-weight: 700;
+     line-height: 1.07;
+     letter-spacing: 0.02em;
+     max-width: 496px;
+     margin: 0 auto;
+     margin-bottom: 48px;
 
  
 
  }
+
+  .hero {
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
+
+
+
+
+        }
+
+
+
+
+ 
+
+
 
    
