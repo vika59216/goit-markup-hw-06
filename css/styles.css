@@ -535,6 +535,7 @@ position: relative;
     .middle{
         padding-top: 0px;
         padding-bottom: 120px;
+       
         
     }
 
@@ -574,6 +575,8 @@ position: relative;
     background-color: #F4F4FD;
     padding-top: 96px;
     padding-bottom: 96px;
+   
+ 
  
 
    }
@@ -1222,7 +1225,7 @@ position: relative;
              height: 24px;
              width: 24px;
              border-radius: 50%;
-            /display: flex;
+            display: flex;
              align-items: center;
              justify-content: center;
              background-color: #e7e9fc;
