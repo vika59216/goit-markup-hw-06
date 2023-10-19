@@ -68,6 +68,7 @@
     
     width: calc((100% - 24px) / 2);
    
+   
 
    
 
@@ -86,10 +87,15 @@
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-transform: none;
+        min-width: 496;
+        margin: 0 auto;
+            margin-bottom: 48px;
       
        
            
         }
+
+        
 
  
 
@@ -97,6 +103,31 @@
     padding:112px 0;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ \(1\)\ tablet.jpg);}
+
+
+
+
+.hero-title {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -175,9 +206,9 @@ color: var(--SLATE, #434455);
         padding-right: 15px;
     margin: 0 auto;
     padding: 0 16px;
-    max-width: 320px;*/
+    max-width: 320px;
 
-}
+}*/
 
 
 
@@ -185,12 +216,18 @@ color: var(--SLATE, #434455);
 
     /*display: flex ;*/
       align-items: baseline;
+        flex-wrap: wrap;
+     
 
   }
 
   .social-container {
       /* margin-right: 120px;*/
-      margin-bottom: 72px;}
+      margin-bottom: 72px;
+    margin-left: 24px;
+    text-align: left;
+
+    }
      
 
 
@@ -221,8 +258,10 @@ color: var(--SLATE, #434455);
         }
     
         .footer-form {
-            display: flex;
-            gap: 24px;}
+            /*display: flex;*/
+            /*gap: 24px;*/
+        flex-direction: row;}
+           
 
                 .modal {
                     position: absolute;
@@ -242,6 +281,28 @@ color: var(--SLATE, #434455);
                      min-height: 584px;
                   
                 }
+                
+
+.container.footer-container{
+    max-width: 584px;
+}
+
+.social-media{
+   margin-right: 0;
+}
+
+ 
+.container.team-container (min-width:768px){
+    max-width: 584px;
+
+
+}
+   }
+
+
+  
+
+
 
 
 
@@ -391,12 +452,12 @@ margin-bottom: 120px;
 
    }
 
-   .footer-container {
+  .footer-container {
 
        display: flex;
        align-items: baseline;
        text-align: left;
-
+      
    }
 
    .social-container {
@@ -501,19 +562,11 @@ margin-bottom: 120px;
         .footer-botton{
             
         }
-    
-        
 
 
 
-    
 
 
-
-   
-
-
- 
 
 
 

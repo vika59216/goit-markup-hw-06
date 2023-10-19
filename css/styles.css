@@ -377,7 +377,7 @@ ul{
 .hero {
     background: var(--navyblue, #2E2F42);
    /*padding: 188px 0;*/
-   padding: 72px 75px 72px 75px;
+   padding: 72px 0 72px 0;
    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ mobil.jpg);
    background-repeat: no-repeat;
@@ -396,7 +396,7 @@ ul{
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.018em;
-          max-width: 496px;
+          max-width: 208px;
            margin: 0 auto;
             margin-bottom: 48px;
             
@@ -445,7 +445,7 @@ p{
 
 
 .advantages{
-padding: 96px 16px;
+padding: 96px 0px;
 
 
 }
@@ -792,6 +792,7 @@ position: relative;
             display: flex;
                 gap: 48px;
                 flex-wrap: wrap;
+                margin-bottom: 96px;
            
              
     }
@@ -949,7 +950,7 @@ position: relative;
     }
     .footer-container{
 
-       /* display: flex ;*/
+       /*display: flex ;*/
     align-items: baseline;
         
     }
@@ -1370,6 +1371,8 @@ position: relative;
              letter-spacing: 0.04em;
              display: block;
              margin-bottom: 4px;
+           
+
     
     
     
@@ -1429,6 +1432,8 @@ position: relative;
              align-items: center;
              display: block;
              font-size: 12px;
+             
+             
     
     
     
@@ -1462,7 +1467,9 @@ position: relative;
              stroke-width: 1px;
              stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
     
-    
+/*display: flex;
+    align-items: center;*/
+       
     
     
     
