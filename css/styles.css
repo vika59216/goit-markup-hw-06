@@ -132,6 +132,14 @@ ul{
     margin: 0px;
     padding: 0px;
 }
+
+
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .header-sos-link{
     color:var(--slate, #434455);
         font-size: 16px;
@@ -1466,9 +1474,9 @@ position: relative;
     
              stroke-width: 1px;
              stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+             display: flex;
     
-/*display: flex;
-    align-items: center;*/
+
        
     
     
