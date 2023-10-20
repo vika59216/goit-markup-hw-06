@@ -228,11 +228,24 @@ img{
             flex-direction: column;
             justify-content: space-between;
             overflow: auto;
-            opacity: 0;
+           opacity: 0;
             visibility: hidden;
             pointer-events: auto;
 
         }
+
+        .menu-open-btn{
+
+
+
+        }
+
+
+      
+
+
+                .backdrop.is-hidden.modal {
+                    transform: translate(-50%, -50%) scale(3);}
 
         .menu-close-btn{
             display: block;
@@ -247,17 +260,11 @@ img{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background-color: #e7e9fc;
+              background-color: #e7e9fc;
                 border: 1px solid rgba(0, 0, 0, 0.1);
                 padding: 0;
              
-                  
-                    
-         
-            
-            
-                  
-           
+             
                
         }
         .mob-menu-list{
@@ -394,6 +401,18 @@ img{
     max-width: 1440px;
     margin:auto;
 }
+
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ mobil\ mobil.jpg);
+
+    }
+}
+
 
 
 
@@ -958,8 +977,7 @@ position: relative;
     }
     .footer-container{
 
-       /*display: flex ;*/
-    align-items: baseline;
+   align-items: baseline;
         
     }
     .social-container{

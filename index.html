@@ -64,7 +64,7 @@
 
 
         <div class="mob-menu" is-open>
-            <div>
+            <div clas="modal-modal">
             <button type="button" class="menu-close-btn"><svg class="close-btn" width="8" height="8">
                     <use class="close-btn-top" href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                 </svg></button>
@@ -224,7 +224,13 @@
 
                 <li class="team-name-item list">
                     
-                    <img class="bestsellers-picture" src="./images/img-min.jpg" alt="Mark Guerrero" Width="264" Height="260">
+                    
+                    <img
+                    srcset="./images/img-min.jpg 1x,
+                    ./images/img (1) 2x-min.jpg 2x"
+                    
+
+                     class="bestsellers-picture" src="./images/img-min.jpg" alt="Mark Guerrero" Width="264" Height="260">
                     <div class="team-work">
                     <h3 class="team-name-subtitle">Mark Guerrero</h3>
                     <p class="team-name-text">Product Designer</p>
