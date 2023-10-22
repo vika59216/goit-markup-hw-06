@@ -232,7 +232,7 @@ color: var(--SLATE, #434455);
    display: flex ;
       align-items: baseline;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: left;
      
 
   }
@@ -265,12 +265,21 @@ color: var(--SLATE, #434455);
 
   }
 
+  
+
+  
+
         .footer-botton {
             display: flex;
             justify-content: space-between;
+            align-items: start;
            
     
     
+        }
+
+        .footer-logo-text{
+            min-width: 264;
         }
     
         .footer-form {
@@ -304,13 +313,19 @@ color: var(--SLATE, #434455);
    margin-right: 0;
 }
 
+.social-container{
+    
+}
+
 
 .footer-top-text{
     text-align: left;
+  
 }
 
 .sozial-media-text{
 text-align: left;
+
 }
 
  
@@ -323,7 +338,18 @@ text-align: left;
 
 }
 
+
+@media(min-width: 768px) {
+    .container.footer-container {
+        max-width: 584px;
+    }
+
+
+
+}
+
    }
+
 
 
   
@@ -351,12 +377,19 @@ text-align: left;
          
 
      }
+           @media(min-width: 1158px) {
+               .container.footer-container{max-width: 1158px} 
+           }
 
          .advantages-item {
              width: calc((100% - 72px) / 4);
     
     
          }
+                 @media(min-width: 1158px) {
+                     .container.team-container {
+                         max-width: 1158px;
+                     }
          .advantages{
         padding: 120px 0;
             
@@ -406,6 +439,7 @@ text-align: left;
         width: calc((100% - 72px) / 4);
       }
 
+          
      
 
       .portfolio-little{
@@ -481,7 +515,7 @@ margin-bottom: 120px;
 
 .header-sos-link {
     color: var(--slate, #434455);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -505,6 +539,8 @@ margin-bottom: 120px;
     
     
         }
+
+      
     
         .footer-container {
     
@@ -514,7 +550,10 @@ margin-bottom: 120px;
         }
     
        .social-container {
-            margin-right: 120px;
+          margin-right: 120px;
+
+          margin-bottom: 0;
+          margin-right: auto;
         }
     
         .footer-logo {
@@ -546,13 +585,14 @@ margin-bottom: 120px;
             font-weight: 400;
             line-height: 24px;
             letter-spacing: 0.32px;
-            max-width: 264px
+            /*max-width: 264px*/
+            max-width: 288px;
         }
     
         .footer-botton {
     
-            justify-content: space-between;
-            align-items: center;
+         /*  justify-content: space-between;
+            align-items: center;*/
     
     
         }
@@ -665,7 +705,9 @@ margin-bottom: 120px;
         }
     
         .social-media {
+            margin-bottom: 0;
             margin-right: 80px;
+         
     
     
     
@@ -719,3 +761,4 @@ margin-bottom: 120px;
     
     
         }
+    }
