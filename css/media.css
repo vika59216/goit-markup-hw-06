@@ -233,6 +233,7 @@ color: var(--SLATE, #434455);
       align-items: baseline;
         flex-wrap: wrap;
         justify-content: left;
+        gap: 24px;
      
 
   }
@@ -321,10 +322,11 @@ color: var(--SLATE, #434455);
 .footer-top-text{
     text-align: left;
   
+  
 }
 
 .sozial-media-text{
-text-align: left;
+text-align: unset;
 
 }
 
