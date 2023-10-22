@@ -325,8 +325,8 @@ color: var(--SLATE, #434455);
   
 }
 
-.sozial-media-text{
-text-align: unset;
+ .sozial-media-text{
+ text-align:unset;
 
 }
 
@@ -723,6 +723,7 @@ margin-bottom: 120px;
             letter-spacing: 0.02em;
             color: #FFFFFF;
             margin-bottom: 16px;
+            text-align: left;
     
         }
     

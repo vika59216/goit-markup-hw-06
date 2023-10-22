@@ -1050,6 +1050,9 @@ position: relative;
         flex-direction: column;
 
 
+
+        
+
     }
 
     .footer-form{
@@ -1168,6 +1171,7 @@ position: relative;
     .social-media{
         /*margin-right: 80px;*/
         margin-bottom: 72px;
+       
         
 
         
@@ -1181,7 +1185,9 @@ position: relative;
         letter-spacing: 0.02em;
         color:#FFFFFF;
         margin-bottom: 16px;
-        text-align: center;
+      text-align: center;
+     
+       
 
     }
     .media-icon-list{
