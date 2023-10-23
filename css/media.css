@@ -114,7 +114,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 (min-resolution: 2dppx) {
     .hero-container {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ tabl\ tabl.jpg);
+                rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tabl2x.jpg);
     };
     }
 
@@ -328,6 +328,8 @@ color: var(--SLATE, #434455);
  .sozial-media-text{
  text-align:unset;
 
+ 
+
 }
 
  
@@ -502,11 +504,13 @@ margin-bottom: 120px;
                 (min-resolution: 2dppx) {
                     .hero-container {
                         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                                rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ comp\ comp.jpg);
+                                rgba(46, 47, 66, 0.7)), url(../images/people-office-comp2x.jpg);
                     }
         
-                    ;
+                    
                 }
+
+                
                 .header-soc-list {
                     display: flex;
                     gap: 40px;
@@ -637,12 +641,7 @@ margin-bottom: 120px;
             margin-bottom: 16px;
             color: #ffffff;
             display: block;
-            ;
-            ;
-            ;
-            ;
-            ,
-    
+        
     
     
         }
@@ -717,12 +716,7 @@ margin-bottom: 120px;
         }
     
         .social-media-text {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-            margin-bottom: 16px;
+            
             text-align: left;
     
         }
