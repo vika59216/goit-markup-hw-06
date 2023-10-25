@@ -202,6 +202,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     flex-direction: column;
     gap: 12px;
    
+   
     
 
 }
@@ -548,8 +549,19 @@ margin-bottom: 120px;
         line-height: 1.5;
         
         letter-spacing: 0.01em;
+        display:unset;
+       
     
    
+
+   }
+
+   .header-soc-list{
+    gap: 40px;
+    flex-direction: unset;
+    display: flex;
+    
+
 
    }
    .header-logo{
